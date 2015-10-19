@@ -1,0 +1,52 @@
+body {
+	background: #907D7C;
+}
+.parent {
+	background: #907D7C;
+	text-align: center;
+	margin-top: 8%;
+}
+
+#parent2 {
+	margin-top: 3%;
+}
+
+.logos {
+	width: 13%;
+	height: 25%;
+	border-radius: 25px;  
+	margin-right: 20px; 
+
+}
+
+#id1:hover {
+	content: url(kstartupdouche.png);
+}
+
+#id2:hover {
+	content: url(kalanick.jpg);
+}
+
+#id3:hover {
+	content: url(ajit.jpg);
+}
+
+#id4:hover {
+	content: url(kdouche.jpeg);
+}
+
+#id5:hover {
+	content: url(cody.jpg);
+}
+
+#id6:hover {
+	content: url(preston.jpg);
+}
+
+#id7:hover {
+	content: url(tinderdouche.jpg);
+}
+
+#id8:hover {
+	content: url(evan.jpg);
+}
