@@ -17,23 +17,23 @@ function mouseout() {
 	}
 }
 
-function click(x) {
-	alert(x);
-	for (var i = 0; i < logos.length; i++) {
-		if (x !== i) {
-		logos[i].style.display = "hidden";
+function findevent(e) {
+	var e = e || window.event;
+	var target = e.target || e.srcElement;
+		for (var i = 0; i < logos.length; i++) {
+			if (target !== logos[i]) {
+			logos[i].style.display = "none";
 		}
-	}
 
+	}
 }
 
 var logos = document.getElementsByClassName("logos");
 for (var i = 0; i < logos.length; i++) {
 	logos[i].addEventListener('mouseenter', mouseenter);
 	logos[i].addEventListener('mouseout', mouseout);
-	logos[i].addEventListener('click', click(i));
 }
-click("hey");
 
 
-
+var parent = document.getElementById("parent");
+parent.addEventListener("click", findevent);
