@@ -1,10 +1,12 @@
-body {
-	background: #907D7C;
-}
-.parent {
+body { 
+	background: #907D7C; 
+	-webkit-transition: background 1.5s;
+} 
+.parentz {
 	background: #907D7C;
 	text-align: center;
 	margin-top: 8%;
+	-webkit-transition: background 1.5s;
 }
 
 #parent2 {
@@ -12,41 +14,9 @@ body {
 }
 
 .logos {
-	width: 13%;
-	height: 25%;
-	border-radius: 25px;  
+	width: 7%;
+	height: 19%;
+	border-radius: 90px;  
 	margin-right: 20px; 
 
-}
-
-#id1:hover {
-	content: url(kstartupdouche.png);
-}
-
-#id2:hover {
-	content: url(kalanick.jpg);
-}
-
-#id3:hover {
-	content: url(ajit.jpg);
-}
-
-#id4:hover {
-	content: url(kdouche.jpeg);
-}
-
-#id5:hover {
-	content: url(cody.jpg);
-}
-
-#id6:hover {
-	content: url(preston.jpg);
-}
-
-#id7:hover {
-	content: url(tinderdouche.jpg);
-}
-
-#id8:hover {
-	content: url(evan.jpg);
-}
+} 
